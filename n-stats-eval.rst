@@ -59,3 +59,21 @@ mess up your statistics in any case.
    
    transrate --assembly=/mnt/work/rna-assembly.fa --left=/mnt/work/left.fq --right=/mnt/work/right.fq --output=/mnt/work/transrate_reads
 
+::
+
+   [ INFO] 2016-03-30 13:43:11 : -----------------------------------
+   [ INFO] 2016-03-30 13:43:11 : TRANSRATE OPTIMAL SCORE       0.036
+   [ INFO] 2016-03-30 13:43:11 : TRANSRATE OPTIMAL CUTOFF     0.1589
+   [ INFO] 2016-03-30 13:43:11 : good contigs                     27
+   [ INFO] 2016-03-30 13:43:11 : p good contigs                 0.44
+
+
+::
+
+   transrate --install-deps ref
+
+
+    transrate --assembly=/mnt/work/rna-assembly.fa --reference=/mnt/work/rna-assembly-nodn.fa --output=/mnt/work/assembly-compare
+
+    transrate --reference=/mnt/work/rna-assembly.fa --assembly=/mnt/work/rna-assembly-nodn.fa --output=/mnt/work/assembly-compare
+    
