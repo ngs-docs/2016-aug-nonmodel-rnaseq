@@ -6,12 +6,12 @@ Now we'll assemble all of these reads into a transcriptome, using
 
 First, install some prerequisites for Trinity::
 
-   sudo apt-get -y install bowtie samtools
+   sudo apt-get -y install bowtie samtools zlib1g-dev ncurses-dev
 
-Next, install Trinity v2.0.6::
+Next, install Trinity v2.2.0::
 
    cd 
-   curl -L https://github.com/trinityrnaseq/trinityrnaseq/archive/v2.0.6.tar.gz > trinity.tar.gz
+   curl -L https://github.com/trinityrnaseq/trinityrnaseq/archive/v2.2.0.tar.gz > trinity.tar.gz
    tar xzf trinity.tar.gz
    mv trinityrnaseq* trinity/
 
@@ -33,23 +33,12 @@ Now, run the Trinity assembler::
 
    ~/trinity/Trinity --left left.fq --right right.fq --seqType fq --max_memory 10G --bypass_java_version_check
 
-This will give you an output file ``trinity_out_dir/Trinity.fasta``, which
-you can get stats on like so::
+This will give you an output file ``trinity_out_dir/Trinity.fasta``.
 
-   curl -L -O https://github.com/ged-lab/khmer/raw/v1.3/sandbox/assemstats3.py
-   python assemstats3.py 300 trinity_out_dir/Trinity.fasta
+Let's copy that to a safe place, where we'll work with it moving forward::
 
-Change the filename and rename all the sequences::
-
-   gzip -c trinity_out_dir/Trinity.fasta > trinity-nematostella-raw.fa.gz
-   curl -O http://2015-may-nonmodel.readthedocs.org/en/dev/_static/rename-with-partitions.py
-   chmod u+x rename-with-partitions.py
-   ./rename-with-partitions.py nema trinity-nematostella-raw.fa.gz
-
-This last command will give you
-``trinity-nematostella-raw.renamed.fasta.gz``, which contains all of
-the renamed sequences.
+  cp trinity_out_dir/Trinity.fasta rna-assembly.fa
 
 ----
-   
-Next: :doc:`n-blast`
+
+Next: :doc:`n-stats-eval`

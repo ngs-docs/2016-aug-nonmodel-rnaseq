@@ -20,6 +20,8 @@ Tutorials:
    n-quality
    n-diginorm
    n-assemble
+   n-stats-eval
+   
    n-blast
    annotate
    quantification

@@ -16,15 +16,11 @@ First, we'll run it on the interleaved files we generated in the previous
 section::
 
    cd /mnt/work
-   normalize-by-median.py -k 20 -p -C 20 -N 4 -x 2e9 -s normC20k20.ct *.pe.qc.fq.gz
+   normalize-by-median.py -k 20 -C 20 -N 4 -x 2e8 -s normC20k20.ct *.pe.qc.fq.gz orphans.fq.gz
 
 (These parameters should work for essentially all mRNAseq data sets; see
 `the khmer documentation <http://khmer.readthedocs.org/en/v1.3/>`__ for more
 information.)
-
-Next, run diginorm on the orphaned reads (from trimming)::
-
-   normalize-by-median.py -l normC20k20.ct -s normC20k20.ct orphans.fq.gz
 
 Do k-mer abundance trimming on the reads, which will eliminate the majority
 of the errors (thus further decreasing the memory requirements) --::

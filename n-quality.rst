@@ -309,7 +309,7 @@ from the `khmer package <http://khmer.readthedocs.org>`__, which we
 need to install::
 
   sudo pip install -U setuptools
-  sudo pip install khmer==1.3
+  sudo pip install khmer==2.0
 
 Now let's use a for loop again - you might notice this is only a minor
 modification of the previous for loop... ::
