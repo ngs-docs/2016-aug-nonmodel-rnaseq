@@ -7,6 +7,8 @@ See `the workshop organization page
 for more information, or `contact Titus directly
 <mailto:ctbrown@ucdavis.edu>`__.
 
+`We have an EtherPad for sharing text and asking questions <https://etherpad.wikimedia.org/p/2016-03-30-nonmodel-rnaseq>`__
+
 Tutorials:
 
 .. toctree::

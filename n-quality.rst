@@ -1,6 +1,12 @@
 Short read quality and trimming
 ===============================
 
+.. note::
+
+   There's a more thorough discussion of trimming in our 2016
+   short-read trimming workshop, `here
+   <https://2016-short-read-trimming.readthedocs.org/en/latest/>`__.
+
 OK, you should now be logged into your Amazon computer! How exciting!
 
 Prepping the computer
