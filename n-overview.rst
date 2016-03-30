@@ -7,6 +7,9 @@ of mRNAseq data, you have to build your own transcriptome from scratch
 programs to do this - most notably Trinity and Oases - and `we have
 found little difference <https://peerj.com/preprints/505/>`__.
 
+.. thumbnail:: files/assembly.png
+   :width: 20%
+
 The main problem you'll run into with non-model mRNAseq is that the
 output is fairly noisy with respect to splice variants.  Our
 experience has been that many of these splice variants are probably
