@@ -29,10 +29,6 @@ question will help others!
 
 Titus Brown - prof here at UC Davis in the School of Vet Med.
 
-Tamer Mansour - MD/PhD, postdoc with Titus.
-
-Camille Scott - CS graduate student here at Davis.
-
 4. Amazon and cloud computing - why?!
 -------------------------------------
 
@@ -57,12 +53,6 @@ e.g. on the back of your laptop.
 At the end of each session (coffee break, lunch, end of day) please
 write down on an index card **one thing you learned** and **one thing
 you're still confused about.**
-
-6. Warning:
------------
-
-The bit that isn't going to work is at the beginning.  This is unavoidable.
-To reward you, we have a coffee break at 10:30am...
 
 ---
 

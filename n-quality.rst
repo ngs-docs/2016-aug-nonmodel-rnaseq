@@ -1,10 +1,6 @@
 Short read quality and trimming
 ===============================
 
-.. note::
-
-   Reminder: if you're on Windows, you should install `mobaxterm <http://mobaxterm.mobatek.net/download.html>`__.
-
 OK, you should now be logged into your Amazon computer! How exciting!
 
 Prepping the computer
