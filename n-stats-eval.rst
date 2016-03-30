@@ -73,8 +73,14 @@ mess up your statistics in any case.
 Evaluating read mapping
 -----------------------
 
-You can also use transrate to assess read mapping, but then you have to supply
-it with the reads::
+You can also use transrate to assess read mapping; this will use
+read evidence to detect many kinds of errors.
+
+.. thumbnail:: files/transrate-errors.png
+   :width: 20%
+
+To do this, you have to supply
+transrate with the reads::
    
    transrate --assembly=/mnt/work/rna-assembly.fa --left=/mnt/work/left.fq --right=/mnt/work/right.fq --output=/mnt/work/transrate_reads
 
