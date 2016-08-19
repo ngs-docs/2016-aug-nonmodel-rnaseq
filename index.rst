@@ -8,7 +8,7 @@ Rico - Rio Pedras campus.
 For more information, please `contact Titus directly
 <mailto:ctbrown@ucdavis.edu>`__.
 
-.. `We have an EtherPad for sharing text and asking questions <https://etherpad.wikimedia.org/p/2016-03-30-nonmodel-rnaseq>`__
+`We have an EtherPad for sharing text and asking questions <https://public.etherpad-mozilla.org/p/pr-idi-bd2k>`__.
 
 Tutorials:
 
