@@ -1,8 +1,9 @@
-2016 / Mar / mRNAseq on non-model organisms
+2016 / Aug / mRNAseq on non-model organisms
 ===========================================
 
-Part of this workshop was given on August 18th and 19th, 2016,
-by C. Titus Brown and Phillip T. Brooks.
+Parts of this workshop were given on August 18th and 19th, 2016,
+by C. Titus Brown and Phillip T. Brooks, at the University of Puerto
+Rico - Rio Pedras campus.
 
 For more information, please `contact Titus directly
 <mailto:ctbrown@ucdavis.edu>`__.
