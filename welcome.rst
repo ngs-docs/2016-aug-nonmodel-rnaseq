@@ -9,6 +9,7 @@ For you:
 * get a first (or second) look at tools;
 * gain some experience in the basic command line;
 * get 80% of way to a complete analysis of some data;
+* introduction to philosophy and perspective of data analysis in science;
 
 2. Safe space and code of conduct
 ---------------------------------
@@ -34,7 +35,6 @@ Phil Brooks - postdoc at UC Davis.
 * can be used for bigger analyses quite easily;
 * good for "burst" capacity (just got a data set!)
 * accessible everywhere;
-* they give us $100 gift certificates...
 
 5. Sticky notes and how they work... + Minute Cards
 ---------------------------------------------------

@@ -17,6 +17,7 @@ Tutorials:
 
    welcome
    n-overview
+   login
    n-quality
    n-diginorm
    n-assemble
@@ -31,6 +32,7 @@ Tutorials:
    more-resources
    qa
    n-interacting-with-amazon
+   install
 
 Technical information
 ~~~~~~~~~~~~~~~~~~~~~

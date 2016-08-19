@@ -1,13 +1,14 @@
 Short read quality and trimming
 ===============================
 
-.. note::
+First, `Log into your computer <login.html>`__.
 
-   There's a more thorough discussion of trimming in our 2016
-   short-read trimming workshop, `here
-   <https://2016-short-read-trimming.readthedocs.org/en/latest/>`__.
+OK, you should now be logged into your Amazon computer!  You should see
+something like this::
 
-OK, you should now be logged into your Amazon computer! How exciting!
+   ubuntu@ip-172-30-1-252:~$
+
+this is the command prompt.
 
 Prepping the computer
 ---------------------
@@ -20,6 +21,14 @@ First, let's set up a place to work::
    sudo chmod a+rwxt /mnt
 
 This makes '/mnt' a place where we can put data and working files.
+
+.. note::
+
+   /mnt is the location we're going to use on Amazon computers, but
+   if you're working on a local cluster, it will have a different
+   location.  Talk to your local sysadmin and ask them where they
+   recommend putting lots of short-term working files, i.e. the
+   "scratch" space.
 
 ----
 
