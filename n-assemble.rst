@@ -4,11 +4,8 @@ Running the actual assembly
 Now we'll assemble all of these reads into a transcriptome, using
 `the Trinity de novo transcriptome assembler <http://trinityrnaseq.github.io/>`__.
 
-First, install some prerequisites for Trinity::
-
-   sudo apt-get -y install bowtie samtools zlib1g-dev ncurses-dev
-
-Next, install Trinity v2.2.0::
+We've already installed the prerequisites (see :doc:`install`); 
+now, install Trinity v2.2.0 itself::
 
    cd 
    curl -L https://github.com/trinityrnaseq/trinityrnaseq/archive/v2.2.0.tar.gz > trinity.tar.gz

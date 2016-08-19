@@ -23,15 +23,6 @@ This makes '/mnt' a place where we can put data and working files.
 
 ----
 
-Next, let's install a few things::
-
-   sudo apt-get update
-   sudo apt-get install -y trimmomatic fastqc python-pip python-dev
-
-These are the Trimmomatic and FastQC programs, which we'll use below,
-along with some software prerequisites that we'll need for other things
-below.
-
 Data source
 -----------
 
@@ -109,8 +100,8 @@ Links:
 
 We're going to use `FastQC
 <http://www.bioinformatics.babraham.ac.uk/projects/fastqc/>`__ to
-summarize the data. We already installed 'fastqc' on our computer -
-that's what the 'apt-get install' did, above.
+summarize the data. We already installed 'fastqc' on our computer for
+you.
 
 Now, run FastQC on two files::
 
@@ -132,7 +123,7 @@ to list the files, and you should see::
 We are *not* going to show you how to look at these files right now -
 you need to copy them to your local computer to do that.  We'll show
 you that tomorrow.  But! we can show you what they look like, because
-I've made copiesd of them for you:
+I've made copies of them for you:
 
 * `0Hour_ATCACG_L002_R1_001.extract_fastqc/fastqc_report.html <http://2015-may-nonmodel.readthedocs.org/en/latest/_static/0Hour_ATCACG_L002_R1_001.extract_fastqc/fastqc_report.html>`__
 * `0Hour_ATCACG_L002_R2_001.extract_fastqc/fastqc_report.html <http://2015-may-nonmodel.readthedocs.org/en/latest/_static/0Hour_ATCACG_L002_R2_001.extract_fastqc/fastqc_report.html>`__
@@ -306,10 +297,7 @@ Questions:
 Next, we need to take these R1 and R2 sequences and convert them into
 interleaved form ,for the next step.  To do this, we'll use scripts
 from the `khmer package <http://khmer.readthedocs.org>`__, which we
-need to install::
-
-  sudo pip install -U setuptools
-  sudo pip install khmer==2.0
+installed for you.
 
 Now let's use a for loop again - you might notice this is only a minor
 modification of the previous for loop... ::

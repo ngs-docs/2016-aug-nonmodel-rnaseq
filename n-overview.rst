@@ -39,4 +39,4 @@ At this point you can do one or more of the following:
 * Quantify your transcripts and examine differential expression (:doc:`quantification`)
 * BLAST your transcripts individually (:doc:`n-blast`)
 
-Next: :doc:`amazon`
+Next: :doc:`n-quality`

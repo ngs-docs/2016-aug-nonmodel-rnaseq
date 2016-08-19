@@ -17,7 +17,6 @@ Tutorials:
 
    welcome
    n-overview
-   amazon
    n-quality
    n-diginorm
    n-assemble
