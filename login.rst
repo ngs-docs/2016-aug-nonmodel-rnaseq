@@ -15,3 +15,5 @@ So,
 4. Type in the super-secret password that we'll give you.
 
 Done!
+
+Next: :doc:`n-quality`
