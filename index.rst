@@ -1,13 +1,13 @@
 2016 / Mar / mRNAseq on non-model organisms
 ===========================================
 
-Part of this workshop was given on Mar 30th, 2016, by C. Titus Brown.
-See `the workshop organization page
-<https://dib-training.readthedocs.org/en/pub/2016-03-30-de-novo-mrnaseq-assem.html>`__
-for more information, or `contact Titus directly
+Part of this workshop was given on August 18th and 19th, 2016,
+by C. Titus Brown and Phillip T. Brooks.
+
+For more information, please `contact Titus directly
 <mailto:ctbrown@ucdavis.edu>`__.
 
-`We have an EtherPad for sharing text and asking questions <https://etherpad.wikimedia.org/p/2016-03-30-nonmodel-rnaseq>`__
+.. `We have an EtherPad for sharing text and asking questions <https://etherpad.wikimedia.org/p/2016-03-30-nonmodel-rnaseq>`__
 
 Tutorials:
 

@@ -44,7 +44,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'2015-mar-nonmodel'
+project = u'2016-aug-nonmodel-rnaseq'
 copyright = u'2014-2016, C. Titus Brown et al.'
 
 # The version info for the project you're documenting, acts as replacement for

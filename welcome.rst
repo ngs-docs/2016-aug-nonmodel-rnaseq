@@ -10,10 +10,6 @@ For you:
 * gain some experience in the basic command line;
 * get 80% of way to a complete analysis of some data;
 
-For us:
-
-* what are the on campus needs? who are the on-campus people?
-
 2. Safe space and code of conduct
 ---------------------------------
 
@@ -27,7 +23,9 @@ question will help others!
 3. Instructor introductions
 ---------------------------
 
-Titus Brown - prof here at UC Davis in the School of Vet Med.
+Titus Brown - prof at UC Davis in the School of Vet Med.
+
+Phil Brooks - postdoc at UC Davis.
 
 4. Amazon and cloud computing - why?!
 -------------------------------------
