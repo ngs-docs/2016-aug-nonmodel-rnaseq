@@ -28,7 +28,7 @@ Go into the work directory, and prepare the data::
 
 Now, run the Trinity assembler::
 
-   ~/trinity/Trinity --left left.fq --right right.fq --seqType fq --max_memory 10G --bypass_java_version_check
+   ~/trinity/Trinity --left left.fq --right right.fq --seqType fq --max_memory 5G --bypass_java_version_check
 
 This will give you an output file ``trinity_out_dir/Trinity.fasta``.
 
