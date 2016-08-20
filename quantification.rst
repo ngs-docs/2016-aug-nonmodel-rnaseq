@@ -12,7 +12,7 @@ Salmon Web site: https://combine-lab.github.io/salmon/
 
 Intro blog post: http://robpatro.com/blog/?p=248
 
-A (very recent) blog post evaluating and comparing: https://cgatoxford.wordpress.com/2016/08/17/why-you-should-stop-using-featurecounts-htseq-or-cufflinks2-and-start-using-kallisto-salmon-or-sailfish/
+A (very recent) blog post evaluating and comparing methods: https://cgatoxford.wordpress.com/2016/08/17/why-you-should-stop-using-featurecounts-htseq-or-cufflinks2-and-start-using-kallisto-salmon-or-sailfish/
 
 Installation
 ------------
@@ -145,22 +145,13 @@ These will produce two plots, nema-edgeR-MDS.pdf and nema-edgeR-MA-plot.pdf.
 You can see the plot outputs for the whole data set (all the reads) here:
 
 * `nema-edgeR-MDS.pdf <https://github.com/ngs-docs/2016-aug-nonmodel-rnaseq/blob/master/files/nema-edgeR-MDS.pdf>`__
-* `nema-edgeR-MA-plot.pdf <https://github.com/ngs-docs/2015-aug-nonmodel-rnaseq/blob/master/files/nema-edgeR-MA-plot.pdf>`__ (0 vs 6 hour)
+* `nema-edgeR-MA-plot.pdf <https://github.com/ngs-docs/2016-aug-nonmodel-rnaseq/blob/master/files/nema-edgeR-MA-plot.pdf>`__ (0 vs 6 hour)
 
 A challenge exercise
 --------------------
 
-Download the entire counts data set::
-
-  mkdir /mnt/fullquant
-  cd /mnt/fullquant
-  curl -L -O https://github.com/ngs-docs/2015-nov-adv-rna/raw/master/files/nema-counts.tar.gz
-  tar xzf nema-counts.tar.gz
-
-and run edgeR differential expression etc on it, as above.
-
-Then, create an MA plot comparing 6 Hour vs 12 Hour.
+How would we create an MA plot comparing 6 Hour vs 12 Hour?
 
 ----
 
-`Return to agenda <AGENDA.md>`__
+:doc:`./index`
