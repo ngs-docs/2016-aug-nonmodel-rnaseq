@@ -135,18 +135,17 @@ Now, run an edgeR script (`nema.salmon.R
 <https://github.com/ngs-docs/2016-aug-nonmodel-rnaseq/blob/master/files/nema.salmon.R>`__)
 that loads all this in and calculates a few plots -- ::
 
-   curl -O -L https://raw.githubusercontent.com/ngs-docs/2015-nov-adv-rna/master/files/nema.salmon.R
+   curl -O -L https://raw.githubusercontent.com/ngs-docs/2016-aug-nonmodel-rnaseq/master/files/nema.salmon.R
    Rscript nema.salmon.R
 
 These will produce two plots, nema-edgeR-MDS.pdf and nema-edgeR-MA-plot.pdf.
-Try downloading them to your computer using either MobaXTerm or CyberDuck.
 
 ----
 
 You can see the plot outputs for the whole data set (all the reads) here:
 
-* `nema-edgeR-MDS.pdf <https://github.com/ngs-docs/2015-nov-adv-rna/blob/master/files/nema-edgeR-MDS.pdf>`__
-* `nema-edgeR-MA-plot.pdf <https://github.com/ngs-docs/2015-nov-adv-rna/blob/master/files/nema-edgeR-MA-plot.pdf>`__ (0 vs 6 hour)
+* `nema-edgeR-MDS.pdf <https://github.com/ngs-docs/2016-aug-nonmodel-rnaseq/blob/master/files/nema-edgeR-MDS.pdf>`__
+* `nema-edgeR-MA-plot.pdf <https://github.com/ngs-docs/2015-aug-nonmodel-rnaseq/blob/master/files/nema-edgeR-MA-plot.pdf>`__ (0 vs 6 hour)
 
 A challenge exercise
 --------------------
