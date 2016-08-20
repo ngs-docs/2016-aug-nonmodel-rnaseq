@@ -21,12 +21,9 @@ Tutorials:
    n-quality
    n-diginorm
    n-assemble
-   n-stats-eval
    
-   n-blast
-   annotate
+   n-stats-eval
    quantification
-   remapping
 
    m-advice
    more-resources
