@@ -1,7 +1,5 @@
 library("edgeR")
 
-setwd("~/Desktop/Salmo-play")
-
 files <- list.files(path = ".", pattern = "*.quant.counts")
 
 
